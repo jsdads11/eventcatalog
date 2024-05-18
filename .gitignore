@@ -7,7 +7,7 @@
 
 # Generated files
 .next
-out
+#*out
 
 
 # Misc
