@@ -1,9 +1,10 @@
 module.exports = {
-  title: 'EventCatalog',
+  title: 'EICC EventCatalog',
   tagline: 'Discover, Explore and Document your Event Driven Architectures',
-  organizationName: 'Your Company',
-  projectName: 'Event Catalog',
-  editUrl: 'https://github.com/boyney123/eventcatalog-demo/edit/master',
+  organizationName: 'EICC',
+  projectName: 'Event Catalogue',
+  editUrl: 'https://github.com/tonyod/eventcatalog-out/edit/master',
+  basePath: '/eventcatalog-out',
   trailingSlash: true,
   primaryCTA: {
     label: 'Explore Events',
@@ -16,7 +17,7 @@ module.exports = {
   logo: {
     alt: 'EventCatalog Logo',
     // found in the public dir
-    src: 'logo.svg',
+    src: 'easyjet.svg',
   },
   headerLinks: [
     { label: 'Events', href: '/events'},
@@ -35,6 +36,42 @@ module.exports = {
   ],
   users: [
     {
+      id: 'todonnell',
+      name: 'Tony O Donnell',
+      avatarUrl: 'https://randomuser.me/api/portraits/lego/1.jpg',
+      role: 'Developer',
+    },
+    {
+      id: 'rshanmugam',
+      name: 'Ravi Shanmugam',
+      avatarUrl: 'https://randomuser.me/api/portraits/lego/3.jpg',
+      role: 'Developer',
+    },
+    {
+      id: 'nkelsall',
+      name: 'Nick Kelsall',
+      avatarUrl: 'https://randomuser.me/api/portraits/lego/2.jpg',
+      role: 'Developer',
+    },
+    {
+      id: 'ssundar',
+      name: 'Santosh Sundar',
+      avatarUrl: 'https://randomuser.me/api/portraits/lego/2.jpg',
+      role: 'Developer',
+    },
+    {
+      id: 'sallison',
+      name: 'Steve Allisonr',
+      avatarUrl: 'https://randomuser.me/api/portraits/lego/3.jpg',
+      role: 'Developer',
+    },
+    {
+      id: 'dfoskett',
+      name: 'David Foskett',
+      avatarUrl: 'https://randomuser.me/api/portraits/lego/4.jpg',
+      role: 'Developer',
+    },
+    {
       id: 'dboyne',
       name: 'David Boyne',
       avatarUrl: 'https://pbs.twimg.com/profile_images/1262283153563140096/DYRDqKg6_400x400.png',
@@ -43,8 +80,9 @@ module.exports = {
     {
       id: 'mSmith',
       name: 'Matthew Smith',
-      avatarUrl: 'https://randomuser.me/api/portraits/lego/3.jpg',
+      avatarUrl: 'https://randomuser.me/api/portraits/lego/5.jpg',
       role: 'Developer',
     },
   ],
 }
+
